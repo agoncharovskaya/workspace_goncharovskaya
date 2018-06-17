@@ -3,6 +3,14 @@ body {
 	font-family: sans-serif;
 }
 
+div.content-ctr {
+	align-items: center;
+	display: flex;
+  	justify-content: center;
+	padding: 15px;
+	width: 100%;
+}
+
 fieldset {
 	background-color: white;
 	border: 2px solid #34545F;
@@ -56,12 +64,23 @@ h3 {
 	font-weight: 400;
 }
 
+input[type="email"],
 input[type="text"] {
 	color: #707070;
 	font-size: 16px;
 	height: 24px;
 	margin: 2px 0 2px 0;
 	width: 100%;
+}
+
+input[type="email"]:focus {
+	background-color: #eaeaea;
+	color: black;
+	font-weight: 400;
+}
+
+input[type="text"]:focus {
+	text-transform: capitalize; 
 }
 
 legend,
@@ -99,7 +118,9 @@ main p,
 	text-align: left;
 }
 
-nav a {
+nav a,
+nav a:link,
+nav a:visited {
 	color: #f8f8f8;
 	font-size: 14px;
 	text-decoration: none;
@@ -120,12 +141,77 @@ nav li {
 	padding: 8px;
 }
 
+table.catalog-table {
+	border: 0 none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+table.charc {
+	border: 2px solid #f8f8f8;
+	border-collapse: collapse;
+}
+
+table.charc tr {
+	height: 20px;
+}
+
+td.catalog-table-disc {
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: left;
+	vertical-align: top;
+	width: 50%;
+}
+
+td.catalog-table-disc a,
+td.catalog-table-disc a:link,
+td.catalog-table-disc a:visited {
+	color:cadetblue;
+	text-decoration: none;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+td.catalog-table-disc a:hover {
+	text-decoration: underline;
+}
+
+td.catalog-table-img {
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.charc-names {
+	background-color: #eaeaea;
+	border: 2px solid #f8f8f8;
+}
+
+td.charc-count-set {
+	background-color: #34545F;
+	border: 2px solid #f8f8f8;
+	font-weight: bold;
+	width: 20px;
+}
+
+td.charc-count-none {
+	background-color: #eaeaea;
+	border: 2px solid #f8f8f8;
+	font-weight: bold;
+}
+
 textarea {
 	color: #707070;
 	font-size: 16px;
 	height: 100px;
 	margin: 2px 0 2px 0;
 	width: 100%;
+}
+
+textarea:focus {
+	text-transform: capitalize;
 }
 
 .novelty{
