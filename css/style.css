@@ -214,6 +214,11 @@ textarea:focus {
 	text-transform: capitalize;
 }
 
+.button-set {
+	background-color: inherit;
+	border-style: none;
+}
+
 .novelty{
 	text-decoration: none;
 }
@@ -222,7 +227,6 @@ textarea:focus {
 	border: 4px solid #eaeaea;
 }
 
-.button-set {
-	background-color: inherit;
-	border-style: none;
+.promo-img {
+	width: 600px;
 }
