@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Мексика - страница в разработке</title>
+	<title>Мексика - магазин кактусов и суккулентов</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Мексика</h1>
-		<p>супермаркет роз пустыни</p>
-		<nav>
-			<ul>
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="contacts.html">Контакты</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="content-ctr">
-		<img style="width: 600px;" src="img/construction.png" title="СТраница в разработке" alt="Автопортрет разработчика страницы за работой">
+	<div class="container-white">
+		<header>
+<!-- Секция социальных сетей-->
+			<div class="brif-contact-info">
+				<div class="container-bci">
+					<div class="social-icons">
+						<img class="social-icons" src="img/icons/facebook.png" title="Поделиться в Facebook" alt="Иконка Facebook">
+						<img class="social-icons" src="img/icons/google.png" title="Поделиться в Google Plus" alt="Иконка Google Plus">
+						<img class="social-icons" src="img/icons/twitter.png" title="Поделиться в Twitter" alt="Иконка Twitter">
+					</div>
+				</div>
+			</div>
+<!-- Секция логотипа и основной навигации-->
+			<div class="common-site-info">
+				<div class="container-csi">
+					<div class="container-logo">
+						<h1>Мексика</h1>
+						<span>супермаркет роз пустыни</span>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="uc.html">Статьи</a></li>
+							<li><a href="uc.html">Оплата</a></li>
+							<li><a href="uc.html">Доставка</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+<!-- Секция поиска товаров-->
+			<div class="common-search">
+				<div class="container-src">
+<!-- TODO: Оформить форму поиска в соответствии с макетом -->
+					<div class="container-form">
+						<form action="SEARCH">
+							<input type="search">
+							<input type="button" value="НАЙТИ">
+						</form>
+					</div>
+					<div class="container-sin">
+						<p class="important-info">8 800 980 55 44</p>
+						<p>Техническая поддержка 24х7</p>
+					</div>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+		</header>
+<!-- Секция основного содержимого страницы -->
+		<main class="container-main">
+			<div class="content-ctr">
+				<img style="width: 600px;" src="img/construction.png" title="Страница в разработке" alt="Автопортрет разработчика страницы за работой">
+			</div>
+			<div class="content-ctr">
+				Страница находится в разработке. Приносим свои извинения за доставленные неудобства и желаем приятных покупок!
+			</div>
+		</main>
+		<footer>
+			<div class="container-main">
+				<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
+			</div>
+		</footer>
 	</div>
-	<div class="content-ctr">
-		Страница находится в разработке. Приносим свои извинения за доставленные 
-		неудобства и желаем приятных покупок!
-	</div>
-	<footer>
-		<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
-	</footer>
 </body>
 </html>

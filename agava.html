@@ -1,104 +1,151 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Агава - Мексика супермаркет роз пустыни</title>
+	<title>Мексика - магазин кактусов и суккулентов</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Мексика</h1>
-		<p>супермаркет роз пустыни</p>
-		<nav>
-			<ul>
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="contacts.html">Контакты</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h2>Агава</h2>
-		<a href="img/agava_big.jpg" target="_blank">
-			<img class="prod-photo-small" src="img/agava_small.jpg" title="Агава" alt="Фотография агавы">
-		</a>
-		<h3>Описание товара</h3>
-		<p class="brief-description">Агава королевы Виктории выглядит очень красиво и эффектно, за счет 
-		идеальной округлой формы, в диаметре достигающей 40-60 см. Она имеет 
-		достаточно жесткие, но имеющие невероятный узор, темно-зеленые листья.
-		</p>
-		<p class="brief-description">Каждое растение поставляется в подарочной упаковке, включающей 
-		декоративное кашпо ручной работы и паспорт растения, оформленный в 
-		викторианском стиле.</p>
-		<h3>Характеристики товара</h3>
-		<ul>
-			<li><b>Цена:</b> 340 &#8381;</li>
-			<li><b>Страна происхождения:</b> Мексика</li>
-			<li><b>Высота растения:</b> 10 см</li>
-		</ul>
-		<h3>Рекомендации по уходу</h3>
+	<div class="container-white">
+		<header>
+<!-- Секция социальных сетей-->
+			<div class="brif-contact-info">
+				<div class="container-bci">
+					<div class="social-icons">
+						<img class="social-icons" src="img/icons/facebook.png" title="Поделиться в Facebook" alt="Иконка Facebook">
+						<img class="social-icons" src="img/icons/google.png" title="Поделиться в Google Plus" alt="Иконка Google Plus">
+						<img class="social-icons" src="img/icons/twitter.png" title="Поделиться в Twitter" alt="Иконка Twitter">
+					</div>
+				</div>
+			</div>
+<!-- Секция логотипа и основной навигации-->
+			<div class="common-site-info">
+				<div class="container-csi">
+					<div class="container-logo">
+						<h1>Мексика</h1>
+						<span>супермаркет роз пустыни</span>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="uc.html">Статьи</a></li>
+							<li><a href="uc.html">Оплата</a></li>
+							<li><a href="uc.html">Доставка</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+<!-- Секция поиска товаров-->
+			<div class="common-search">
+				<div class="container-src">
+<!-- TODO: Оформить форму поиска в соответствии с макетом -->
+					<div class="container-form">
+						<form action="SEARCH">
+							<input type="search">
+							<input type="button" value="НАЙТИ">
+						</form>
+					</div>
+					<div class="container-sin">
+						<p class="important-info">8 800 980 55 44</p>
+						<p>Техническая поддержка 24х7</p>
+					</div>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+		</header>
+<!-- Секция основного содержимого страницы -->
+		<main>
+			<div class="container-main">
+				<h2>Агава</h2>
+					<div class="section-left">
+						<a href="img/agava_big.jpg" target="_blank">
+							<img class="prod-photo-small" src="img/agava_small.jpg" title="Агава" alt="Фотография агавы">
+						</a>
+						<form action="BUY">
+							<input type="button" value="КУПИТЬ">
+						</form>
+					</div>
+					<div class="section-discr-left">
+						<h3>Описание товара</h3>
+						<p class="brief-description">Агава королевы Виктории выглядит очень красиво и эффектно, за счет идеальной округлой формы, в диаметре достигающей 40-60 см. Она имеет достаточно жесткие, но имеющие невероятный узор, темно-зеленые листья.
+						</p>
+						<p class="brief-description">Каждое растение поставляется в подарочной упаковке, включающей декоративное кашпо ручной работы и паспорт растения, оформленный в викторианском стиле.</p>
+						<h3>Характеристики товара</h3>
+						<ul>
+							<li><b>Цена:</b> 340 &#8381;</li>
+							<li><b>Страна происхождения:</b> Мексика</li>
+							<li><b>Высота растения:</b> 10 см</li>
+						</ul>
+					</div>
+					<div class="clear-box"></div>
+			</div>
+		 	<div class="container-main">
+		 		<div class="vertical-space-box"></div>
+				<h3>Рекомендации по уходу</h3>
 <!-- Начало таблицы с рекомендациями по уходу -->
-		<table class="charc">
-			<tr>
-				<td class="charc-names">
-					Стойкость
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-none"></td>
-			</tr>
-			<tr>
-				<td class="charc-names">
-					Освещенность
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-			</tr>
-			<tr>
-				<td class="charc-names">
-					Влажность
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-			</tr>
-			<tr>
-				<td class="charc-names">
-					Полив
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-			</tr>
-		</table>
+				<table class="charc">
+					<tr>
+						<td class="charc-names">
+							Стойкость
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-none"></td>
+					</tr>
+					<tr>
+						<td class="charc-names">
+							Освещенность
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+					</tr>
+					<tr>
+						<td class="charc-names">
+							Влажность
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+					</tr>
+					<tr>
+						<td class="charc-names">
+							Полив
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+					</tr>
+				</table>
 <!-- Конец таблицы с рекомендациями по уходу -->
-		<h3>Подробное описание товара</h3>
-		<p class="description">Агава относится к многолетнему, бесстебельному, розеточному  растению, 
-		которое считается ближним родственником алоэ, кактусов и хавортиии. Родина 
-		этого благородного растения Мексика — так ацтеки называют агаву. Растет 
-		также в средней Америке, Средиземноморье, на Кавказе и в Крыму.</p>
-		<p class="description">Растение используют для озеленения помещений, зимних садов, так же в 
-		украшении парков, клумб.</p>
-		<h3>Jardinero на заметку</h3>
-		<p class="description">Считается, что агава зацветает на свой 100 летний юбилей, однако это 
-		не так, цветение у агав наступает у крупных видов на 30-40 год жизни, у 
-		миниатюрных через пару лет, после чего они все погибают, оставляя после 
-		себя многочисленные корневые отпрыски. Однако, у некоторых видов вместо 
-		цветков на соцветии появляются молодые растения с корнями, которые способны
-		к собственному укоренению.
-		</p>
-	</main>
-	<footer>
-		<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
-	</footer>
+			</div>
+			<div class="container-main">
+		 		<div class="vertical-space-box"></div>
+				<h3>Подробное описание товара</h3>
+				<p class="description">Агава относится к многолетнему, бесстебельному, розеточному  растению, которое считается ближним родственником алоэ, кактусов и хавортиии. Родина этого благородного растения Мексика — так ацтеки называют агаву. Растет также в средней Америке, Средиземноморье, на Кавказе и в Крыму.</p>
+				<p class="description">Растение используют для озеленения помещений, зимних садов, так же в украшении парков, клумб.</p>
+				<h3>Jardinero на заметку</h3>
+				<p class="description">Считается, что агава зацветает на свой 100 летний юбилей, однако это не так, цветение у агав наступает у крупных видов на 30-40 год жизни, у миниатюрных через пару лет, после чего они все погибают, оставляя после себя многочисленные корневые отпрыски. Однако, у некоторых видов вместо цветков на соцветии появляются молодые растения с корнями, которые способны к собственному укоренению.
+				</p>
+			</div>
+			<div class="vertical-space-box"></div>
+		</main>
+		<footer>
+			<div class="container-main">
+				<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>

@@ -6,41 +6,96 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Мексика</h1>
-		<p>супермаркет роз пустыни</p>
-		<nav>
-			<ul>
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="contacts.html">Контакты</a></li>
-			</ul>
-		</nav>
-	</header>
-	<h2>Bienvenida!</h2>
-	<p> Добро пожаловать! Супермаркет Мексика предлагает большой выбор кактусов
-	и суккулентов на любой вкус, от небольших растений для оформления 
-	подоконника до офисных декоративных комплексов. Все наши растения здоровы, 
-	высажены в натуральный грунт премиум класса и готовы радовать Вас долгие 
-	годы. Приятных покупок!
-	</p>
-	<img class="promo-img" src="img/caramel.jpg" title="Декоративная композиция &quot;Карамель&quot;" alt="Фотография одной из наших декоративных композиций">
-	<h2>Сезонные акции</h2>
-	<p><b>Осенний колорит -</b> при покупке сортов суккулентов красных и желтых 
-	цветов грунт и набор инструментов для пересадки растений <b>в подарок!</b> 
-	</p>
-	<h2>Новинки</h2>
-	<a class="novelty" href="eonium.html">
-		<img src="img/eonium_small.jpg" title="Эониум" alt="Фотография эониума">
-	</a>
-	<a class="novelty" href="pahifitum.html">
-		<img src="img/pahifitum_small.jpg" title="Пахифитум" alt="Фотография пахифитума">
-	</a>
-	<a class="novelty" href="eheveriya.html">
-		<img src="img/eheveriya_small.jpg" title="Эхеверия" alt="Фотография эхеверии">
-	</a>
-	<footer>
-		<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
-	</footer>
+	<div class="container">
+		<header>
+<!-- Секция социальных сетей-->
+			<div class="brif-contact-info">
+				<div class="container-bci">
+					<div class="social-icons">
+						<img class="social-icons" src="img/icons/facebook.png" title="Поделиться в Facebook" alt="Иконка Facebook">
+						<img class="social-icons" src="img/icons/google.png" title="Поделиться в Google Plus" alt="Иконка Google Plus">
+						<img class="social-icons" src="img/icons/twitter.png" title="Поделиться в Twitter" alt="Иконка Twitter">
+					</div>
+				</div>
+			</div>
+<!-- Секция логотипа и основной навигации-->
+			<div class="common-site-info">
+				<div class="container-csi">
+					<div class="container-logo">
+						<h1>Мексика</h1>
+						<span>супермаркет роз пустыни</span>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="uc.html">Статьи</a></li>
+							<li><a href="uc.html">Оплата</a></li>
+							<li><a href="uc.html">Доставка</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+<!-- Секция поиска товаров-->
+			<div class="common-search">
+				<div class="container-src">
+<!-- TODO: Оформить форму поиска в соответствии с макетом -->
+					<div class="container-form">
+						<form action="SEARCH">
+							<input type="search">
+							<input type="button" value="НАЙТИ">
+						</form>
+					</div>
+					<div class="container-sin">
+						<p class="important-info">8 800 980 55 44</p>
+						<p>Техническая поддержка 24х7</p>
+					</div>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+		</header>
+<!-- Секция основного содержимого страницы -->
+		<main>
+			<div class="container-main">
+				<div class="container-hello">
+					<h2>Bienvenida!</h2>
+					<p> Добро пожаловать! Супермаркет Мексика предлагает большой выбор кактусов и суккулентов на любой вкус, от небольших растений для оформления подоконника до офисных декоративных комплексов. Все наши растения здоровы, высажены в натуральный грунт премиум класса и готовы радовать Вас долгие годы. Приятных покупок!
+					</p>
+				</div>
+				<div class="container-sale">
+					<img src="img/sale_01.png" title="Распродажа растений осенней гаммы" alt="Баннер акции -30% на красные и желтые растения">
+					<img src="img/sale_02.png" title="Поступление молочаев" alt="Баннер ановинки - Молочай">
+				</div>
+				<div class="clear-box"></div>
+			</div>
+			<div class="vertical-space-box"></div>
+<!-- Секция новинок -->
+			<div class="container-main">
+				<div class="section-header">
+					<h2>Новинки</h2>
+				</div>
+				<div class="section-body">
+					<a class="novelty" href="eonium.html">
+					<img src="img/eonium_small.jpg" title="Эониум" alt="Фотография эониума">
+					</a>
+					<a class="novelty" href="pahifitum.html">
+					<img src="img/pahifitum_small.jpg" title="Пахифитум" alt="Фотография пахифитума">
+					</a>
+					<a class="novelty" href="eheveriya.html">
+					<img src="img/eheveriya_small.jpg" title="Эхеверия" alt="Фотография эхеверии">
+					</a>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+			<div class="vertical-space-box"></div>
+		</main>
+		<footer>
+			<div class="container-main">
+				<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>

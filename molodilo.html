@@ -1,104 +1,154 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Молодило - Мексика супермаркет роз пустыни</title>
+	<title>Мексика - магазин кактусов и суккулентов</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Мексика</h1>
-		<p>супермаркет роз пустыни</p>
-		<nav>
-			<ul>
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="contacts.html">Контакты</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h2>Молодило</h2>
-		<a href="img/molodilo_big.jpg" href="img/molodilo_big.jpg" target="_blank">
-			<img class="prod-photo-small" src="img/molodilo_small.jpg" title="Молодило" alt="Фотография молодила">
-		</a>
-		<h3>Описание товара</h3>
-		<p class="brief-description">Молодила не просто красивые растения, они отличаются весьма неординарным 
-		«характером», поскольку открывают простор для создания неожиданных 
-		композиций. Чаще всего их используют в рокариях, на альпийских горках и 
-		подпорных стенках.
-		</p>
-		<p class="brief-description">Каждое растение поставляется в подарочной упаковке, включающей 
-		декоративное кашпо ручной работы и паспорт растения.
-		</p>
-		<h3>Характеристики товара</h3>
-		<ul>
-			<li><b>Цена:</b> 400 &#8381;</li>
-			<li><b>Страна происхождения:</b> Россия</li>
-			<li><b>Высота растения:</b> 8 см</li>
-		</ul>
-		<h3>Рекомендации по уходу</h3>
+	<div class="container-white">
+		<header>
+<!-- Секция социальных сетей-->
+			<div class="brif-contact-info">
+				<div class="container-bci">
+					<div class="social-icons">
+						<img class="social-icons" src="img/icons/facebook.png" title="Поделиться в Facebook" alt="Иконка Facebook">
+						<img class="social-icons" src="img/icons/google.png" title="Поделиться в Google Plus" alt="Иконка Google Plus">
+						<img class="social-icons" src="img/icons/twitter.png" title="Поделиться в Twitter" alt="Иконка Twitter">
+					</div>
+				</div>
+			</div>
+<!-- Секция логотипа и основной навигации-->
+			<div class="common-site-info">
+				<div class="container-csi">
+					<div class="container-logo">
+						<h1>Мексика</h1>
+						<span>супермаркет роз пустыни</span>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="catalog.html">Каталог</a></li>
+							<li><a href="uc.html">Статьи</a></li>
+							<li><a href="uc.html">Оплата</a></li>
+							<li><a href="uc.html">Доставка</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+<!-- Секция поиска товаров-->
+			<div class="common-search">
+				<div class="container-src">
+<!-- TODO: Оформить форму поиска в соответствии с макетом -->
+					<div class="container-form">
+						<form action="SEARCH">
+							<input type="search">
+							<input type="button" value="НАЙТИ">
+						</form>
+					</div>
+					<div class="container-sin">
+						<p class="important-info">8 800 980 55 44</p>
+						<p>Техническая поддержка 24х7</p>
+					</div>
+					<div class="clear-box"></div>
+				</div>
+			</div>
+		</header>
+<!-- Секция основного содержимого страницы -->
+		<main>
+			<div class="container-main">
+				<h2>Молодило</h2>
+				<div class="section-left">
+					<a href="img/molodilo_big.jpg" href="img/molodilo_big.jpg" target="_blank">
+						<img class="prod-photo-small" src="img/molodilo_small.jpg" title="Молодило" alt="Фотография молодила">
+					</a>
+					<form action="BUY">
+							<input type="button" value="КУПИТЬ">
+					</form>
+				</div>
+				<div class="section-discr-left">
+					<h3>Описание товара</h3>
+					<p class="brief-description">Молодила не просто красивые растения, они отличаются весьма неординарным «характером», поскольку открывают простор для создания неожиданных композиций. Чаще всего их используют в рокариях, на альпийских горках и подпорных стенках.
+					</p>
+					<p class="brief-description">Каждое растение поставляется в подарочной упаковке, включающей декоративное кашпо ручной работы и паспорт растения.
+					</p>
+					<h3>Характеристики товара</h3>
+					<ul>
+						<li><b>Цена:</b> 400 &#8381;</li>
+						<li><b>Страна происхождения:</b> Россия</li>
+						<li><b>Высота растения:</b> 8 см</li>
+					</ul>
+				</div>
+				<div class="clear-box"></div>
+			</div>
+		 	<div class="container-main">
+		 		<div class="vertical-space-box"></div>
+				<h3>Рекомендации по уходу</h3>
 <!-- Начало таблицы с рекомендациями по уходу -->
-		<table class="charc">
-			<tr>
-				<td class="charc-names">
-					Стойкость
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-none"></td>
-			</tr>
-			<tr>
-				<td class="charc-names">
-					Освещенность
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-			</tr>
-			<tr>
-				<td class="charc-names">
-					Влажность
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-			</tr>
-			<tr>
-				<td class="charc-names">
-					Полив
-				</td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-set"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-				<td class="charc-count-none"></td>
-			</tr>
-		</table>
+				<table class="charc">
+					<tr>
+						<td class="charc-names">
+							Стойкость
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-none"></td>
+					</tr>
+					<tr>
+						<td class="charc-names">
+							Освещенность
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+					</tr>
+					<tr>
+						<td class="charc-names">
+							Влажность
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+					</tr>
+					<tr>
+						<td class="charc-names">
+							Полив
+						</td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-set"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+						<td class="charc-count-none"></td>
+					</tr>
+				</table>
 <!-- Конец таблицы с рекомендациями по уходу -->
-		<h3>Подробное описание товара</h3>
-		<p class="description">Молодило – идеальное растение для нижнего яруса альпийских горок или 
-		рокариев. Его толстые, мясистые листья уже сами по себе декоративны, а в 
-		период цветения растение молодило и вовсе напоминает экзотический неколючий
-		кактус, волей случая попавший в компанию к цветам средней полосы.</p>
-		<p class="description">Размножать молодило очень просто, оно отлично приживается даже при отсутствии корней.</p>
-		<h3>Jardinero на заметку</h3>
-		<p class="description">Помимо высокой декоративности у молодил ценятся и их полезные качества: 
-		там, где раскинулись плотными ковриками молодила, сорнякам не место. Молодило 
-		можно выращивать в комнатных условиях, посадив в отдельные горшочки как 
-		кактусы или создав из них замысловатые композиции. Не забывайте про хороший
-		дренаж и помните, что нижние листья у них должны почти касаться поверхности
-		почвы.
-		</p>
-	</main>
-	<footer>
-		<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
-	</footer>
+			</div>
+			<div class="container-main">
+		 		<div class="vertical-space-box"></div>
+				<h3>Подробное описание товара</h3>
+				<p class="description">Молодило – идеальное растение для нижнего яруса альпийских горок или рокариев. Его толстые, мясистые листья уже сами по себе декоративны, а в период цветения растение молодило и вовсе напоминает экзотический неколючий кактус, волей случая попавший в компанию к цветам средней полосы.
+				</p>
+				<p class="description">Размножать молодило очень просто, оно отлично приживается даже при отсутствии корней.
+				</p>
+				<h3>Jardinero на заметку</h3>
+				<p class="description">Помимо высокой декоративности у молодил ценятся и их полезные качества: там, где раскинулись плотными ковриками молодила, сорнякам не место. Молодило можно выращивать в комнатных условиях, посадив в отдельные горшочки как кактусы или создав из них замысловатые композиции. Не забывайте про хороший дренаж и помните, что нижние листья у них должны почти касаться поверхности почвы.
+				</p>
+			</div>
+			<div class="vertical-space-box"></div>
+		</main>
+		<footer>
+			<div class="container-main">
+				<p>&copy; А. Д. Гончаровская, 2018 Все права защищены</p>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>

@@ -1,6 +1,8 @@
 body {
-	background-color: #f8f8f8;
+	background-color: #EEE;
 	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 div.content-ctr {
@@ -9,6 +11,13 @@ div.content-ctr {
   	justify-content: center;
 	padding: 15px;
 	width: 100%;
+}
+
+div.social-icons {
+	display: table-cell;
+	margin-left: 0;
+	margin-right: auto;
+	vertical-align: middle;
 }
 
 fieldset {
@@ -20,40 +29,70 @@ fieldset {
 }
 
 footer {
-	background-color: #34545F;
-	height: 100px;
-	margin: 10px 0 0 0;
-	padding: 2px;
+	background-color: white;
+	border-top: 2px solid #EEE; 
+	height: 30px;
 }
 
 footer p {
-	color: #f8f8f8;
+	color: #34545F;
+	float:right;
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
+	margin: 8px 0;
+}
+
+
+form[action="BUY"] input[type="button"]{
+	display: block;
+	margin-left: auto;
+	margin-right: 42px;
+	margin-top: 10px;
+	padding: 4px 0;
+	width: 50%;
+}
+
+form[action="BUY"] input[type="button"]:active {
+	background-color: lightsteelblue;
+	color: dimgray;
+}
+
+form[action="BUY"] input[type="button"]:hover{
+	background-color: lavender;
+}
+
+form[action="SEARCH"] input[type="search"]{
+	float: left;
+	padding: 4px 0;
+	width: 85%;
+}
+
+form[action="SEARCH"] input[type="button"]{
+	float: left;
+	padding: 4px 0;
+	width: 15%;
 }
 
 header nav {
 	align-items: center;
-	background-color: #34545F;
+	background-color: inherit;
 	display: flex;
-	height: 50px;
-	justify-content: center;
-	width: 100%;
+	height: 64px;
+	justify-content: flex-end;
 }
 
 h1 {
 	color: #34545F;
-	font-size: 30px;
-	margin-bottom: 4px;
+	font-size: 32px;
 	text-align: center;
+	margin: 0;
 }
 
 /* Style for site slogan. */
-h1 + p {
+h1 + span {
 	color: #34545F;
-	font-size: 12px;
-	margin-top: 0;
+	font-size: 11px;
 	text-align: center;
 }
 
@@ -62,6 +101,11 @@ h3 {
 	color: black;
 	font-size: 18px;
 	font-weight: 400;
+	margin-top: 0;
+}
+
+img.social-items {
+	margin: 4px 0;
 }
 
 input[type="email"],
@@ -121,7 +165,7 @@ main p,
 nav a,
 nav a:link,
 nav a:visited {
-	color: #f8f8f8;
+	color: #34545F;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -214,19 +258,169 @@ textarea:focus {
 	text-transform: capitalize;
 }
 
+.container,
+.container-white {
+	height: 100%;
+	width: 100%;
+}
+
+.container-white {
+	background-color: white;
+}
+
+.container-bci {
+	width: 1000px;
+	margin: auto;
+	padding: 6px 4px 4px 4px;
+}
+
+.container-csi,
+.container-src, 
+.container-main {
+	margin: auto;
+	width: 1000px;
+}
+
+.container-form {
+	height: 47px;
+	float: left;
+	margin-top: 4px;
+	width: 80%;
+}
+
+.container-hello {
+	background-color: #93D3D3;
+	height: 400px;
+	float: left;
+	box-shadow: inset 0 6px 4px -5px rgba(0,0,0,.5);
+	width: 80%;
+}
+
+.container-hello h2 {
+	color: white;
+	margin: 20px;
+	padding: 0;
+}
+
+.container-hello p {
+	color: white;
+	font-size: 18px;
+	margin: 20px;
+	padding: 0;
+	text-align: justify;
+	width: 80%;
+}
+
+.container-logo {
+	float: left;
+	padding: 4px 0;
+}
+
+.container-sale img {
+	vertical-align: top;
+}
+
+.container-sale {
+	background-color: #fdeaf0;
+	box-shadow: inset 0 6px 4px -5px rgba(0,0,0,.5);
+}
+
+.container-sin,
+.container-sale {
+	float: left;
+	width: 20%;
+}
+
+.container-sin p {
+	font-size: 12px;
+	margin: 4px auto 8px 8px;	
+}
+	
+.brif-contact-info {
+	background-color: white;
+	border-bottom: 2px solid #EEE;
+	padding: 4px;
+}
+
+.clear-box {
+	height: 0;
+	width: 0;
+	clear: both;
+}
+
+.common-search {
+	background-color: #EEE;
+	box-shadow: 0 6px 4px -5px rgba(0,0,0,.5);
+}
+
+.common-site-info {
+	background-color: white;
+	padding: 15px 0;
+}
+
 .button-set {
 	background-color: inherit;
 	border-style: none;
 }
 
-.novelty{
+.important-info {
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.inner-shadow {
+	box-shadow: inset 0 6px 4px -5px rgba(0,0,0,.5);
+}
+
+.novelty {
 	text-decoration: none;
+}
+
+/* vertical-align: top; Убирает резервируемое браузером место под элементы букв, выходящие за строку*/
+
+.novelty img {
+	border: none;
+	margin: 0 6px 0 0;
+	vertical-align: top;
 }
 
 .prod-photo-small {
 	border: 4px solid #eaeaea;
+	vertical-align: top;
 }
 
-.promo-img {
-	width: 600px;
+.section-body {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 6px 6px 6px 20px;
+}
+
+.section-header {
+	background-color: white;
+	border-bottom: 1px solid mediumvioletred;
+	padding: 6px 6px 6px 20px;
+	
+}
+
+.section-header h2 {
+	color: mediumvioletred;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.section-left {
+	float: left;
+	width: 30%;
+}
+
+.section-discr-left {
+	float: left;
+	width: 70%;
+}
+
+.vertical-space-box {
+	height: 20px;
 }
